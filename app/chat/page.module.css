@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1380px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.aside {
+  height: 100%;
+  flex: 1 1 380px;
+  border-right: 0.1px solid white;
+}
+
+.asideHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 0 0 1000px;
+}
+
+.sectionBody {
+  flex: 1 1 100%;
+}
+
+.sectionFooter {
+  flex: 0 0 60px;
+}
+
+.sectionHeader,
+.sectionFooter {
+  flex: 0 0 60px;
+}
+
+.asideHeader,
+.sectionHeader {
+  height: 60px;
+  background-color: var(--background-block);
+}
+
+.asideHeader,
+.sectionHeader,
+.sectionFooter {
+  padding: var(--padding-block);
+}

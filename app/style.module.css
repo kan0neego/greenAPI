@@ -1,0 +1,14 @@
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  align-items: center;
+  width: 450px;
+  height: 250px;
+  background-color: var(--background-block);
+  border-radius: var(--border-radius);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

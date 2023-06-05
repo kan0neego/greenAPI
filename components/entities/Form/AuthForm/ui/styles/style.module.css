@@ -1,0 +1,16 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitButton {
+  width: 150px;
+  height: 40px;
+  border: 1px solid var(--background-block);
+  border-radius: var(--border-radius);
+  background-color: var(--background-app);
+  margin-top: 0.5rem;
+  cursor: pointer;
+}

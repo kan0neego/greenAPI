@@ -1,0 +1,33 @@
+.cellWrapper {
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--background-default-hover);
+  }
+
+  &:first-child {
+    .activityWrapper {
+      border-top: 0;
+    }
+  }
+}
+
+.activityWrapper {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+
+  border-top: 1px solid var(--border-list);
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 0.8rem;
+  color: var(--primary-strong);
+}

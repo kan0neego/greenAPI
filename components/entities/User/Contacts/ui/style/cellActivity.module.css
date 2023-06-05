@@ -1,0 +1,16 @@
+.activityWrapper {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+  
+  border-top: 1px solid var(--border-list);
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 100%;
+  color: var(--primary-strong);
+}
